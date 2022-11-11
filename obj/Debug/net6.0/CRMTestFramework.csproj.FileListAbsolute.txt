@@ -111,3 +111,8 @@ C:\Users\damia\source\repos\CRMTestFramework\obj\Debug\net6.0\refint\CRMTestFram
 C:\Users\damia\source\repos\CRMTestFramework\obj\Debug\net6.0\CRMTestFramework.pdb
 C:\Users\damia\source\repos\CRMTestFramework\obj\Debug\net6.0\CRMTestFramework.genruntimeconfig.cache
 C:\Users\damia\source\repos\CRMTestFramework\obj\Debug\net6.0\ref\CRMTestFramework.dll
+C:\Users\damia\source\repos\CRMTestFramework\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\Users\damia\source\repos\CRMTestFramework\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\Users\damia\source\repos\CRMTestFramework\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\damia\source\repos\CRMTestFramework\bin\Debug\net6.0\WebDriver.Support.dll
+C:\Users\damia\source\repos\CRMTestFramework\bin\Debug\net6.0\WebDriver.dll
