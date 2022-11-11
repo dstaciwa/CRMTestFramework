@@ -97,7 +97,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("User navigates to Reports", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 8
-  testRunner.And("User finds given report", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+  testRunner.And("User finds \"Project Profitability\" report", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 9
  testRunner.Then("User runs report", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

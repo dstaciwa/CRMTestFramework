@@ -19,10 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Drivers\" />
-    <Folder Include="TestData\" />
-    <Folder Include="PageObjects\" />
     <Folder Include="Support\" />
+    <Folder Include="TestData\" />
   </ItemGroup>
 
 </Project>

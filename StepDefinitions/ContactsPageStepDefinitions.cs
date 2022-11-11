@@ -1,3 +1,5 @@
+using CRMTestFramework.Base;
+using OpenQA.Selenium;
 using System;
 using TechTalk.SpecFlow;
 
@@ -6,6 +8,8 @@ namespace CRMTestFramework.StepDefinitions
     [Binding]
     public class ContactsPageStepDefinitions
     {
+        public IWebDriver driver = BaseTest.driver;
+
         [When(@"User adds new Contact")]
         public void WhenUserAddsNewContact()
         {

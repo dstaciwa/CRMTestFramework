@@ -1,15 +1,17 @@
-using System;
-using TechTalk.SpecFlow;
+using CRMTestFramework.Base;
+using CRMTestFramework.PageObjects;
 
 namespace CRMTestFramework.StepDefinitions
 {
     [Binding]
-    public class LoginPageStepDefinitions
+    public class LoginPageStepDefinitions : BaseTest
     {
+        readonly LoginPage _loginPage = new LoginPage(driver);
+
         [Given(@"User is logged in")]
         public void GivenUserIsLoggedIn()
         {
-            throw new PendingStepException();
+            _loginPage.LogIn(Username, Password);
         }
     }
 }

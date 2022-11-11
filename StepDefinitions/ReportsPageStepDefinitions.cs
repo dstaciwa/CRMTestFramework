@@ -1,3 +1,5 @@
+using CRMTestFramework.Base;
+using OpenQA.Selenium;
 using System;
 using TechTalk.SpecFlow;
 
@@ -6,8 +8,10 @@ namespace CRMTestFramework.StepDefinitions
     [Binding]
     public class ReportsPageStepDefinitions
     {
-        [When(@"User finds given report")]
-        public void WhenUserFindsGivenReport()
+        public IWebDriver driver = BaseTest.driver;
+
+        [When(@"User finds (.*) report")]
+        public void WhenUserFindsGivenReport(string reportName)
         {
             throw new PendingStepException();
         }

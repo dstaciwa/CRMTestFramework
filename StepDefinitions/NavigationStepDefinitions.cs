@@ -1,11 +1,13 @@
-using System;
-using TechTalk.SpecFlow;
+using CRMTestFramework.Base;
+using CRMTestFramework.PageObjects.Home;
 
 namespace CRMTestFramework.StepDefinitions
 {
     [Binding]
-    public class NavigationStepDefinitions
+    public class NavigationStepDefinitions : BaseTest
     {
+        readonly HomePage _homePage = new HomePage(driver);
+
         [When(@"User navigates to Activity Log")]
         public void WhenUserNavigatesToActivityLog()
         {
