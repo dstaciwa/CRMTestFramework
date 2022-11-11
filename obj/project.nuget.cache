@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7d3q0u1H9PMRER8czdS++DErEvtvByfVSl0PTN49WxyH+jYs1op2fGeLIhyRzmr501bH6PfP6cheauxytqfU5w==",
+  "dgSpecHash": "F5K9mWh8Q2VwE57DKo5DzBV7CSXohOwvN9qHyjXMbDzqcvsmrIqcKBGLTy9C8LtvRcUPl3SnJ31kAuRIaU9Dwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\damia\\source\\repos\\CRMTestFramework_start\\CRMTestFramework\\CRMTestFramework.csproj",
+  "projectFilePath": "C:\\Users\\damia\\source\\repos\\CRMTestFramework\\CRMTestFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\damia\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
     "C:\\Users\\damia\\.nuget\\packages\\fluentassertions\\6.2.0\\fluentassertions.6.2.0.nupkg.sha512",
