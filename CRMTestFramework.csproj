@@ -17,6 +17,9 @@
 
   <ItemGroup>
     <Folder Include="Drivers\" />
+    <Folder Include="Hooks\" />
+    <Folder Include="TestData\" />
+    <Folder Include="PageObjects\" />
     <Folder Include="Support\" />
   </ItemGroup>
 
